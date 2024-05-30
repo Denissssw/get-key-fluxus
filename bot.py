@@ -4,7 +4,7 @@ from discord import app_commands
 import requests
 from bs4 import BeautifulSoup
 
-#---------- Informations require for the bot ----------#
+#---------- Informations required for the bot ----------#
 token = 'YOUR_BOT_TOKEN'
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='.', intents=intents)
